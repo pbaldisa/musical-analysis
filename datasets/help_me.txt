@@ -1,0 +1,16 @@
+c253ef0b1cd64cdda6034ed60110c19f
+923d3ce9b9914c5ca21fb243180210f5
+http://127.0.0.1:8080
+
+------ crear playlist ---------
+
+cd pythonProject
+export SPOTIPY_CLIENT_ID=c253ef0b1cd64cdda6034ed60110c19f    
+export SPOTIPY_CLIENT_SECRET=923d3ce9b9914c5ca21fb243180210f5
+export SPOTIPY_REDIRECT_URI=http://127.0.0.1:8080/
+python3 playlist_creator.py
+
+
+------ exportar popularity a csv -------
+
+python3 main.py

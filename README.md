@@ -1,5 +1,5 @@
 # musical-analysis
-This project aims at using statistics and a vast amount of data to find if physical attributes of a song make it popular. We will create a model to predict the next hit, if we find there is a correlation between success and the features selected. 
+This project aims at using statistics and a vast amount of information to find whether there is a relationship between the physical attributes of a song and its popularity. To do so, we make a thorough analysis of the available data and train a few machine learning and statistical models to predict a song's success.
 
 We are currently populating a relational database using MySQL and we will use Python to build a model and test our hypothesis.
 
